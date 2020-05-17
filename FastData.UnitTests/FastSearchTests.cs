@@ -26,7 +26,7 @@ namespace FastData.UnitTests
         {
             Stopwatch sw = new Stopwatch();
             sw.Start();
-            for (int i = 0; i < 1000; i++)
+            for (int i = 0; i < 1; i++)
             {
                 foreach (var p in TestParameters)
                 {
